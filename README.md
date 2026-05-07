@@ -79,7 +79,7 @@ $$
 Before training and evaluation, every point cloud is centered and scaled:
 
 $$
-\tilde{x}_i = \frac{x_i - \mu}{\max_j \lVert x_j - \mu \rVert_2},
+\tilde{x}_i = \frac{x_i - \mu}{\max_j \|x_j - \mu\|_2},
 \quad
 \mu = \frac{1}{N}\sum_{j=1}^{N} x_j.
 $$
@@ -93,7 +93,7 @@ PointNet uses small spatial transformer networks to predict alignment matrices.
 The input transform predicts a `3 x 3` matrix:
 
 $$
-T_3 = \operatorname{STN}_3(P),
+T_3 = \mathrm{STN}_3(P),
 \quad
 x_i' = T_3 x_i.
 $$
@@ -102,7 +102,7 @@ The feature transform predicts a `64 x 64` matrix after the first point-wise
 feature layers:
 
 $$
-T_{64} = \operatorname{STN}_{64}(H),
+T_{64} = \mathrm{STN}_{64}(H),
 \quad
 h_i' = T_{64} h_i.
 $$
@@ -112,7 +112,7 @@ The feature transform is regularized toward an orthogonal matrix:
 $$
 \mathcal{L}_{reg}
 = \lambda \frac{1}{B}\sum_{b=1}^{B}
-\left\lVert I - T_b T_b^{\top} \right\rVert_F,
+\|I - T_b T_b^{\top}\|_F,
 \quad \lambda = 10^{-3}.
 $$
 
@@ -151,7 +151,7 @@ The training loss is:
 
 $$
 \mathcal{L}_{cls}
-= \operatorname{CE}(\hat{y}, y) + \mathcal{L}_{reg}.
+= \mathrm{CE}(\hat{y}, y) + \mathcal{L}_{reg}.
 $$
 
 Implementation references:
@@ -181,16 +181,16 @@ The loss is point-wise cross entropy plus feature-transform regularization:
 $$
 \mathcal{L}_{seg}
 = \frac{1}{N}\sum_{i=1}^{N}
-\operatorname{CE}(\hat{p}_i, p_i) + \mathcal{L}_{reg}.
+\mathrm{CE}(\hat{p}_i, p_i) + \mathcal{L}_{reg}.
 $$
 
 At evaluation time, predictions are masked to the valid part IDs for the known
 ShapeNet object category before computing mIoU:
 
 $$
-\operatorname{IoU}_{c,k}
-= \frac{|\operatorname{pred}_{c,k} \cap \operatorname{gt}_{c,k}|}
-{|\operatorname{pred}_{c,k} \cup \operatorname{gt}_{c,k}|}.
+\mathrm{IoU}_{c,k}
+= \frac{|\mathrm{pred}_{c,k} \cap \mathrm{gt}_{c,k}|}
+{|\mathrm{pred}_{c,k} \cup \mathrm{gt}_{c,k}|}.
 $$
 
 The instance mIoU is the mean IoU over valid parts for one object, then averaged
