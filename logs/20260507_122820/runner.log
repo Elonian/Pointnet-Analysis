@@ -1,0 +1,4 @@
+2026-05-07 12:28:20,631 | INFO | pointnet_dir=/mntdatalora/src/Pointnet-Shape-Analysis/sub-modules/pointnet
+2026-05-07 12:28:20,631 | INFO | data_dir=/mntdatalora/src/Pointnet-Shape-Analysis/data
+2026-05-07 12:28:20,631 | INFO | log_dir=/mntdatalora/src/Pointnet-Shape-Analysis/logs/20260507_122820
+2026-05-07 12:28:20,631 | INFO | task=both gpu=0 amp=True save_checkpoints=True

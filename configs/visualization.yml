@@ -1,0 +1,30 @@
+project:
+  pointnet_dir: sub-modules/pointnet
+  data_dir: data
+  log_dir: logs
+  output_dir: analysis_outputs/visualization
+  log_roots:
+    - training_runs
+    - logs
+
+runtime:
+  gpu: 0
+  batch_size: 128
+  seed: 1
+
+tasks:
+  classification:
+    checkpoint: auto
+
+  segmentation:
+    checkpoint: auto
+
+visualizations:
+  training_curves: true
+  checkpoint_summary: true
+  evaluation_plots: true
+  classification_confusion: true
+  segmentation_iou: true
+  segmentation_samples: true
+  segmentation_sample_count: 6
+

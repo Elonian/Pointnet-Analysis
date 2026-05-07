@@ -1,0 +1,714 @@
+{
+  "data_dir": "/mntdatalora/src/Pointnet-Shape-Analysis/data",
+  "modelnet40": {
+    "classes": [
+      "airplane",
+      "bathtub",
+      "bed",
+      "bench",
+      "bookshelf",
+      "bottle",
+      "bowl",
+      "car",
+      "chair",
+      "cone",
+      "cup",
+      "curtain",
+      "desk",
+      "door",
+      "dresser",
+      "flower_pot",
+      "glass_box",
+      "guitar",
+      "keyboard",
+      "lamp",
+      "laptop",
+      "mantel",
+      "monitor",
+      "night_stand",
+      "person",
+      "piano",
+      "plant",
+      "radio",
+      "range_hood",
+      "sink",
+      "sofa",
+      "stairs",
+      "stool",
+      "table",
+      "tent",
+      "toilet",
+      "tv_stand",
+      "vase",
+      "wardrobe",
+      "xbox"
+    ],
+    "files": [
+      {
+        "bytes": 70992141,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          },
+          "faceId": {
+            "dtype": "int32",
+            "shape": [
+              2048,
+              2048
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 39,
+            "min": 0,
+            "shape": [
+              2048,
+              1
+            ],
+            "unique": 40
+          },
+          "normal": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/modelnet40_ply_hdf5_2048/ply_data_test0.h5"
+      },
+      {
+        "bytes": 14356248,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              420,
+              2048,
+              3
+            ]
+          },
+          "faceId": {
+            "dtype": "int32",
+            "shape": [
+              420,
+              2048
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 39,
+            "min": 0,
+            "shape": [
+              420,
+              1
+            ],
+            "unique": 40
+          },
+          "normal": {
+            "dtype": "float32",
+            "shape": [
+              420,
+              2048,
+              3
+            ]
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/modelnet40_ply_hdf5_2048/ply_data_test1.h5"
+      },
+      {
+        "bytes": 73523284,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          },
+          "faceId": {
+            "dtype": "int32",
+            "shape": [
+              2048,
+              2048
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 39,
+            "min": 0,
+            "shape": [
+              2048,
+              1
+            ],
+            "unique": 40
+          },
+          "normal": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/modelnet40_ply_hdf5_2048/ply_data_train0.h5"
+      },
+      {
+        "bytes": 73196621,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          },
+          "faceId": {
+            "dtype": "int32",
+            "shape": [
+              2048,
+              2048
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 39,
+            "min": 0,
+            "shape": [
+              2048,
+              1
+            ],
+            "unique": 40
+          },
+          "normal": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/modelnet40_ply_hdf5_2048/ply_data_train1.h5"
+      },
+      {
+        "bytes": 72245751,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          },
+          "faceId": {
+            "dtype": "int32",
+            "shape": [
+              2048,
+              2048
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 39,
+            "min": 0,
+            "shape": [
+              2048,
+              1
+            ],
+            "unique": 40
+          },
+          "normal": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/modelnet40_ply_hdf5_2048/ply_data_train2.h5"
+      },
+      {
+        "bytes": 72932856,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          },
+          "faceId": {
+            "dtype": "int32",
+            "shape": [
+              2048,
+              2048
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 39,
+            "min": 0,
+            "shape": [
+              2048,
+              1
+            ],
+            "unique": 40
+          },
+          "normal": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/modelnet40_ply_hdf5_2048/ply_data_train3.h5"
+      },
+      {
+        "bytes": 58634835,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              1648,
+              2048,
+              3
+            ]
+          },
+          "faceId": {
+            "dtype": "int32",
+            "shape": [
+              1648,
+              2048
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 39,
+            "min": 0,
+            "shape": [
+              1648,
+              1
+            ],
+            "unique": 40
+          },
+          "normal": {
+            "dtype": "float32",
+            "shape": [
+              1648,
+              2048,
+              3
+            ]
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/modelnet40_ply_hdf5_2048/ply_data_train4.h5"
+      }
+    ]
+  },
+  "shapenet_part": {
+    "categories": [
+      {
+        "index": 0,
+        "name": "Airplane",
+        "synset": "02691156"
+      },
+      {
+        "index": 1,
+        "name": "Bag",
+        "synset": "02773838"
+      },
+      {
+        "index": 2,
+        "name": "Cap",
+        "synset": "02954340"
+      },
+      {
+        "index": 3,
+        "name": "Car",
+        "synset": "02958343"
+      },
+      {
+        "index": 4,
+        "name": "Chair",
+        "synset": "03001627"
+      },
+      {
+        "index": 5,
+        "name": "Earphone",
+        "synset": "03261776"
+      },
+      {
+        "index": 6,
+        "name": "Guitar",
+        "synset": "03467517"
+      },
+      {
+        "index": 7,
+        "name": "Knife",
+        "synset": "03624134"
+      },
+      {
+        "index": 8,
+        "name": "Lamp",
+        "synset": "03636649"
+      },
+      {
+        "index": 9,
+        "name": "Laptop",
+        "synset": "03642806"
+      },
+      {
+        "index": 10,
+        "name": "Motorbike",
+        "synset": "03790512"
+      },
+      {
+        "index": 11,
+        "name": "Mug",
+        "synset": "03797390"
+      },
+      {
+        "index": 12,
+        "name": "Pistol",
+        "synset": "03948459"
+      },
+      {
+        "index": 13,
+        "name": "Rocket",
+        "synset": "04099429"
+      },
+      {
+        "index": 14,
+        "name": "Skateboard",
+        "synset": "04225987"
+      },
+      {
+        "index": 15,
+        "name": "Table",
+        "synset": "04379243"
+      }
+    ],
+    "files": [
+      {
+        "bytes": 43883614,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 15,
+            "min": 0,
+            "shape": [
+              2048,
+              1
+            ],
+            "unique": 16
+          },
+          "pid": {
+            "dtype": "uint8",
+            "max": 49,
+            "min": 0,
+            "shape": [
+              2048,
+              2048
+            ],
+            "unique": 50
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/shapenet_part_seg_hdf5_data/ply_data_test0.h5"
+      },
+      {
+        "bytes": 17480705,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              826,
+              2048,
+              3
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 15,
+            "min": 0,
+            "shape": [
+              826,
+              1
+            ],
+            "unique": 16
+          },
+          "pid": {
+            "dtype": "uint8",
+            "max": 49,
+            "min": 0,
+            "shape": [
+              826,
+              2048
+            ],
+            "unique": 50
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/shapenet_part_seg_hdf5_data/ply_data_test1.h5"
+      },
+      {
+        "bytes": 44096193,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 15,
+            "min": 0,
+            "shape": [
+              2048,
+              1
+            ],
+            "unique": 16
+          },
+          "pid": {
+            "dtype": "uint8",
+            "max": 49,
+            "min": 0,
+            "shape": [
+              2048,
+              2048
+            ],
+            "unique": 50
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/shapenet_part_seg_hdf5_data/ply_data_train0.h5"
+      },
+      {
+        "bytes": 43966991,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 15,
+            "min": 0,
+            "shape": [
+              2048,
+              1
+            ],
+            "unique": 16
+          },
+          "pid": {
+            "dtype": "uint8",
+            "max": 49,
+            "min": 0,
+            "shape": [
+              2048,
+              2048
+            ],
+            "unique": 50
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/shapenet_part_seg_hdf5_data/ply_data_train1.h5"
+      },
+      {
+        "bytes": 44095724,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 15,
+            "min": 0,
+            "shape": [
+              2048,
+              1
+            ],
+            "unique": 16
+          },
+          "pid": {
+            "dtype": "uint8",
+            "max": 49,
+            "min": 0,
+            "shape": [
+              2048,
+              2048
+            ],
+            "unique": 50
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/shapenet_part_seg_hdf5_data/ply_data_train2.h5"
+      },
+      {
+        "bytes": 44021190,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 15,
+            "min": 0,
+            "shape": [
+              2048,
+              1
+            ],
+            "unique": 16
+          },
+          "pid": {
+            "dtype": "uint8",
+            "max": 49,
+            "min": 0,
+            "shape": [
+              2048,
+              2048
+            ],
+            "unique": 50
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/shapenet_part_seg_hdf5_data/ply_data_train3.h5"
+      },
+      {
+        "bytes": 44256910,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              2048,
+              2048,
+              3
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 15,
+            "min": 0,
+            "shape": [
+              2048,
+              1
+            ],
+            "unique": 16
+          },
+          "pid": {
+            "dtype": "uint8",
+            "max": 49,
+            "min": 0,
+            "shape": [
+              2048,
+              2048
+            ],
+            "unique": 50
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/shapenet_part_seg_hdf5_data/ply_data_train4.h5"
+      },
+      {
+        "bytes": 40968682,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              1897,
+              2048,
+              3
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 15,
+            "min": 0,
+            "shape": [
+              1897,
+              1
+            ],
+            "unique": 16
+          },
+          "pid": {
+            "dtype": "uint8",
+            "max": 49,
+            "min": 0,
+            "shape": [
+              1897,
+              2048
+            ],
+            "unique": 50
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/shapenet_part_seg_hdf5_data/ply_data_train5.h5"
+      },
+      {
+        "bytes": 40330978,
+        "datasets": {
+          "data": {
+            "dtype": "float32",
+            "shape": [
+              1870,
+              2048,
+              3
+            ]
+          },
+          "label": {
+            "dtype": "uint8",
+            "max": 15,
+            "min": 0,
+            "shape": [
+              1870,
+              1
+            ],
+            "unique": 16
+          },
+          "pid": {
+            "dtype": "uint8",
+            "max": 49,
+            "min": 0,
+            "shape": [
+              1870,
+              2048
+            ],
+            "unique": 50
+          }
+        },
+        "path": "/mntdatalora/src/Pointnet-Shape-Analysis/data/shapenet_part_seg_hdf5_data/ply_data_val0.h5"
+      }
+    ]
+  }
+}

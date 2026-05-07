@@ -1,0 +1,7 @@
+2026-05-07 21:08:44,040 | INFO | pointnet_dir=/mntdatalora/src/Pointnet-Shape-Analysis/sub-modules/pointnet
+2026-05-07 21:08:44,040 | INFO | data_dir=/mntdatalora/src/Pointnet-Shape-Analysis/data
+2026-05-07 21:08:44,040 | INFO | output_dir=/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/evaluation_smoke
+2026-05-07 21:08:44,226 | INFO | device=cpu batch_size=512
+2026-05-07 21:08:44,273 | INFO | cuda={'torch_version': '2.11.0+cu128', 'cuda_available': True, 'selected_device': 'cpu', 'cuda_version': '12.8', 'device_count': 1}
+2026-05-07 21:08:44,328 | INFO | writing dataset manifest
+2026-05-07 21:09:10,650 | INFO | evaluating classification

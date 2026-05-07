@@ -1,0 +1,25 @@
+project:
+  pointnet_dir: sub-modules/pointnet
+  data_dir: data
+  log_dir: logs
+  output_dir: analysis_outputs/evaluation
+
+runtime:
+  gpu: 0
+  batch_size: 128
+  seed: 1
+
+tasks:
+  classification:
+    enabled: true
+    checkpoint: auto
+
+  segmentation:
+    enabled: true
+    checkpoint: auto
+
+outputs:
+  plots: true
+  dataset_manifest: true
+  sample_count: 0
+

@@ -1,0 +1,776 @@
+{
+  "artifacts": [
+    "/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization/plots/classification_training_curves.png",
+    "/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization/plots/segmentation_training_curves.png",
+    "/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization/plots/checkpoint_summary.png"
+  ],
+  "checkpoints": [
+    {
+      "bytes": 14016037,
+      "epoch": 18,
+      "metric": 81.69,
+      "modified_time": 1778149392.6104634,
+      "name": "Classification_ckpt_epoch18_metric81.69.ckpt",
+      "path": "/mntdatalora/src/Pointnet-Shape-Analysis/sub-modules/pointnet/checkpoints/classification/05-07_12-20-32/Classification_ckpt_epoch18_metric81.69.ckpt",
+      "task": "classification"
+    },
+    {
+      "bytes": 14016037,
+      "epoch": 13,
+      "metric": 79.58,
+      "modified_time": 1778149352.2595809,
+      "name": "Classification_ckpt_epoch13_metric79.58.ckpt",
+      "path": "/mntdatalora/src/Pointnet-Shape-Analysis/sub-modules/pointnet/checkpoints/classification/05-07_12-20-32/Classification_ckpt_epoch13_metric79.58.ckpt",
+      "task": "classification"
+    },
+    {
+      "bytes": 14267491,
+      "epoch": 18,
+      "metric": 82.85,
+      "modified_time": 1778149755.2603958,
+      "name": "Segmentation_ckpt_epoch18_metric82.85.ckpt",
+      "path": "/mntdatalora/src/Pointnet-Shape-Analysis/sub-modules/pointnet/checkpoints/segmentation/05-07_12-23-26/Segmentation_ckpt_epoch18_metric82.85.ckpt",
+      "task": "segmentation"
+    },
+    {
+      "bytes": 14267491,
+      "epoch": 19,
+      "metric": 82.65,
+      "modified_time": 1778149772.665344,
+      "name": "Segmentation_ckpt_epoch19_metric82.65.ckpt",
+      "path": "/mntdatalora/src/Pointnet-Shape-Analysis/sub-modules/pointnet/checkpoints/segmentation/05-07_12-23-26/Segmentation_ckpt_epoch19_metric82.65.ckpt",
+      "task": "segmentation"
+    }
+  ],
+  "evaluations": {},
+  "logs": [
+    {
+      "path": "/mntdatalora/src/Pointnet-Shape-Analysis/training_runs/20260507_122029/classification.log",
+      "records": [
+        {
+          "epoch": 1,
+          "task": "classification",
+          "train_acc": 49.5,
+          "train_loss": 2.0622,
+          "val_acc": 50.2,
+          "val_loss": 1.756
+        },
+        {
+          "epoch": 2,
+          "task": "classification",
+          "train_acc": 67.2,
+          "train_loss": 1.2032,
+          "val_acc": 65.7,
+          "val_loss": 1.2649
+        },
+        {
+          "epoch": 3,
+          "task": "classification",
+          "train_acc": 73.8,
+          "train_loss": 0.943,
+          "val_acc": 56.6,
+          "val_loss": 1.5718
+        },
+        {
+          "epoch": 4,
+          "task": "classification",
+          "train_acc": 76.8,
+          "train_loss": 0.7947,
+          "val_acc": 63.8,
+          "val_loss": 1.2841
+        },
+        {
+          "epoch": 5,
+          "task": "classification",
+          "train_acc": 79.6,
+          "train_loss": 0.7169,
+          "val_acc": 64.2,
+          "val_loss": 1.2549
+        },
+        {
+          "epoch": 6,
+          "task": "classification",
+          "train_acc": 81.6,
+          "train_loss": 0.6224,
+          "val_acc": 71.2,
+          "val_loss": 1.0466
+        },
+        {
+          "epoch": 7,
+          "task": "classification",
+          "train_acc": 83.6,
+          "train_loss": 0.5677,
+          "val_acc": 75.8,
+          "val_loss": 0.8355
+        },
+        {
+          "epoch": 8,
+          "task": "classification",
+          "train_acc": 84.0,
+          "train_loss": 0.5437,
+          "val_acc": 70.4,
+          "val_loss": 1.002
+        },
+        {
+          "epoch": 9,
+          "task": "classification",
+          "train_acc": 85.1,
+          "train_loss": 0.4932,
+          "val_acc": 71.6,
+          "val_loss": 1.0056
+        },
+        {
+          "epoch": 10,
+          "task": "classification",
+          "train_acc": 85.5,
+          "train_loss": 0.4752,
+          "val_acc": 76.1,
+          "val_loss": 0.8262
+        },
+        {
+          "epoch": 11,
+          "task": "classification",
+          "train_acc": 86.7,
+          "train_loss": 0.4298,
+          "val_acc": 77.0,
+          "val_loss": 0.8188
+        },
+        {
+          "epoch": 12,
+          "task": "classification",
+          "train_acc": 87.3,
+          "train_loss": 0.4165,
+          "val_acc": 70.9,
+          "val_loss": 1.037
+        },
+        {
+          "epoch": 13,
+          "task": "classification",
+          "train_acc": 87.6,
+          "train_loss": 0.3984,
+          "val_acc": 75.9,
+          "val_loss": 0.8303
+        },
+        {
+          "epoch": 14,
+          "task": "classification",
+          "train_acc": 87.9,
+          "train_loss": 0.3804,
+          "val_acc": 79.6,
+          "val_loss": 0.7223
+        },
+        {
+          "epoch": 15,
+          "task": "classification",
+          "train_acc": 88.3,
+          "train_loss": 0.3645,
+          "val_acc": 75.4,
+          "val_loss": 0.9032
+        },
+        {
+          "epoch": 16,
+          "task": "classification",
+          "train_acc": 89.2,
+          "train_loss": 0.3413,
+          "val_acc": 77.0,
+          "val_loss": 0.842
+        },
+        {
+          "epoch": 17,
+          "task": "classification",
+          "train_acc": 89.4,
+          "train_loss": 0.33,
+          "val_acc": 78.0,
+          "val_loss": 0.7764
+        },
+        {
+          "epoch": 18,
+          "task": "classification",
+          "train_acc": 89.8,
+          "train_loss": 0.3261,
+          "val_acc": 69.6,
+          "val_loss": 1.2626
+        },
+        {
+          "epoch": 19,
+          "task": "classification",
+          "train_acc": 90.4,
+          "train_loss": 0.3086,
+          "val_acc": 81.7,
+          "val_loss": 0.6695
+        },
+        {
+          "epoch": 20,
+          "task": "classification",
+          "train_acc": 90.3,
+          "train_loss": 0.3062,
+          "val_acc": 73.3,
+          "val_loss": 1.0241
+        }
+      ],
+      "tests": [
+        {
+          "task": "classification",
+          "test_acc": 81.7
+        }
+      ]
+    },
+    {
+      "path": "/mntdatalora/src/Pointnet-Shape-Analysis/training_runs/20260507_122029/segmentation.log",
+      "records": [
+        {
+          "epoch": 1,
+          "task": "segmentation",
+          "train_acc": 72.0,
+          "train_loss": 1.2687,
+          "val_acc": 78.8,
+          "val_loss": 0.7789,
+          "val_miou": 64.6
+        },
+        {
+          "epoch": 2,
+          "task": "segmentation",
+          "train_acc": 83.2,
+          "train_loss": 0.6144,
+          "val_acc": 85.1,
+          "val_loss": 0.5234,
+          "val_miou": 70.2
+        },
+        {
+          "epoch": 3,
+          "task": "segmentation",
+          "train_acc": 85.9,
+          "train_loss": 0.4885,
+          "val_acc": 84.9,
+          "val_loss": 0.5266,
+          "val_miou": 69.4
+        },
+        {
+          "epoch": 4,
+          "task": "segmentation",
+          "train_acc": 86.9,
+          "train_loss": 0.4401,
+          "val_acc": 88.3,
+          "val_loss": 0.3859,
+          "val_miou": 75.5
+        },
+        {
+          "epoch": 5,
+          "task": "segmentation",
+          "train_acc": 88.5,
+          "train_loss": 0.373,
+          "val_acc": 87.7,
+          "val_loss": 0.3983,
+          "val_miou": 76.2
+        },
+        {
+          "epoch": 6,
+          "task": "segmentation",
+          "train_acc": 89.3,
+          "train_loss": 0.3351,
+          "val_acc": 88.5,
+          "val_loss": 0.3762,
+          "val_miou": 77.2
+        },
+        {
+          "epoch": 7,
+          "task": "segmentation",
+          "train_acc": 89.6,
+          "train_loss": 0.3275,
+          "val_acc": 89.2,
+          "val_loss": 0.335,
+          "val_miou": 78.3
+        },
+        {
+          "epoch": 8,
+          "task": "segmentation",
+          "train_acc": 90.1,
+          "train_loss": 0.3096,
+          "val_acc": 90.1,
+          "val_loss": 0.3089,
+          "val_miou": 79.4
+        },
+        {
+          "epoch": 9,
+          "task": "segmentation",
+          "train_acc": 90.2,
+          "train_loss": 0.3026,
+          "val_acc": 89.7,
+          "val_loss": 0.3256,
+          "val_miou": 78.9
+        },
+        {
+          "epoch": 10,
+          "task": "segmentation",
+          "train_acc": 90.9,
+          "train_loss": 0.2794,
+          "val_acc": 90.2,
+          "val_loss": 0.2974,
+          "val_miou": 79.5
+        },
+        {
+          "epoch": 11,
+          "task": "segmentation",
+          "train_acc": 90.8,
+          "train_loss": 0.283,
+          "val_acc": 90.6,
+          "val_loss": 0.29,
+          "val_miou": 80.4
+        },
+        {
+          "epoch": 12,
+          "task": "segmentation",
+          "train_acc": 91.0,
+          "train_loss": 0.2726,
+          "val_acc": 91.1,
+          "val_loss": 0.2743,
+          "val_miou": 80.4
+        },
+        {
+          "epoch": 13,
+          "task": "segmentation",
+          "train_acc": 91.0,
+          "train_loss": 0.2718,
+          "val_acc": 89.8,
+          "val_loss": 0.3251,
+          "val_miou": 80.2
+        },
+        {
+          "epoch": 14,
+          "task": "segmentation",
+          "train_acc": 91.4,
+          "train_loss": 0.2556,
+          "val_acc": 91.1,
+          "val_loss": 0.2724,
+          "val_miou": 81.0
+        },
+        {
+          "epoch": 15,
+          "task": "segmentation",
+          "train_acc": 91.6,
+          "train_loss": 0.2485,
+          "val_acc": 91.3,
+          "val_loss": 0.2677,
+          "val_miou": 81.4
+        },
+        {
+          "epoch": 16,
+          "task": "segmentation",
+          "train_acc": 91.8,
+          "train_loss": 0.2421,
+          "val_acc": 91.2,
+          "val_loss": 0.2689,
+          "val_miou": 81.6
+        },
+        {
+          "epoch": 17,
+          "task": "segmentation",
+          "train_acc": 92.0,
+          "train_loss": 0.235,
+          "val_acc": 91.8,
+          "val_loss": 0.2503,
+          "val_miou": 81.2
+        },
+        {
+          "epoch": 18,
+          "task": "segmentation",
+          "train_acc": 91.8,
+          "train_loss": 0.2434,
+          "val_acc": 91.3,
+          "val_loss": 0.2623,
+          "val_miou": 81.3
+        },
+        {
+          "epoch": 19,
+          "task": "segmentation",
+          "train_acc": 92.4,
+          "train_loss": 0.2217,
+          "val_acc": 92.3,
+          "val_loss": 0.2331,
+          "val_miou": 82.9
+        },
+        {
+          "epoch": 20,
+          "task": "segmentation",
+          "train_acc": 92.6,
+          "train_loss": 0.2147,
+          "val_acc": 92.2,
+          "val_loss": 0.2363,
+          "val_miou": 82.7
+        }
+      ],
+      "tests": [
+        {
+          "task": "segmentation",
+          "test_acc": 90.0,
+          "test_miou": 79.2
+        }
+      ]
+    },
+    {
+      "path": "/mntdatalora/src/Pointnet-Shape-Analysis/training_runs/background/full_training.log",
+      "records": [
+        {
+          "epoch": 1,
+          "task": "classification",
+          "train_acc": 49.5,
+          "train_loss": 2.0622,
+          "val_acc": 50.2,
+          "val_loss": 1.756
+        },
+        {
+          "epoch": 2,
+          "task": "classification",
+          "train_acc": 67.2,
+          "train_loss": 1.2032,
+          "val_acc": 65.7,
+          "val_loss": 1.2649
+        },
+        {
+          "epoch": 3,
+          "task": "classification",
+          "train_acc": 73.8,
+          "train_loss": 0.943,
+          "val_acc": 56.6,
+          "val_loss": 1.5718
+        },
+        {
+          "epoch": 4,
+          "task": "classification",
+          "train_acc": 76.8,
+          "train_loss": 0.7947,
+          "val_acc": 63.8,
+          "val_loss": 1.2841
+        },
+        {
+          "epoch": 5,
+          "task": "classification",
+          "train_acc": 79.6,
+          "train_loss": 0.7169,
+          "val_acc": 64.2,
+          "val_loss": 1.2549
+        },
+        {
+          "epoch": 6,
+          "task": "classification",
+          "train_acc": 81.6,
+          "train_loss": 0.6224,
+          "val_acc": 71.2,
+          "val_loss": 1.0466
+        },
+        {
+          "epoch": 7,
+          "task": "classification",
+          "train_acc": 83.6,
+          "train_loss": 0.5677,
+          "val_acc": 75.8,
+          "val_loss": 0.8355
+        },
+        {
+          "epoch": 8,
+          "task": "classification",
+          "train_acc": 84.0,
+          "train_loss": 0.5437,
+          "val_acc": 70.4,
+          "val_loss": 1.002
+        },
+        {
+          "epoch": 9,
+          "task": "classification",
+          "train_acc": 85.1,
+          "train_loss": 0.4932,
+          "val_acc": 71.6,
+          "val_loss": 1.0056
+        },
+        {
+          "epoch": 10,
+          "task": "classification",
+          "train_acc": 85.5,
+          "train_loss": 0.4752,
+          "val_acc": 76.1,
+          "val_loss": 0.8262
+        },
+        {
+          "epoch": 11,
+          "task": "classification",
+          "train_acc": 86.7,
+          "train_loss": 0.4298,
+          "val_acc": 77.0,
+          "val_loss": 0.8188
+        },
+        {
+          "epoch": 12,
+          "task": "classification",
+          "train_acc": 87.3,
+          "train_loss": 0.4165,
+          "val_acc": 70.9,
+          "val_loss": 1.037
+        },
+        {
+          "epoch": 13,
+          "task": "classification",
+          "train_acc": 87.6,
+          "train_loss": 0.3984,
+          "val_acc": 75.9,
+          "val_loss": 0.8303
+        },
+        {
+          "epoch": 14,
+          "task": "classification",
+          "train_acc": 87.9,
+          "train_loss": 0.3804,
+          "val_acc": 79.6,
+          "val_loss": 0.7223
+        },
+        {
+          "epoch": 15,
+          "task": "classification",
+          "train_acc": 88.3,
+          "train_loss": 0.3645,
+          "val_acc": 75.4,
+          "val_loss": 0.9032
+        },
+        {
+          "epoch": 16,
+          "task": "classification",
+          "train_acc": 89.2,
+          "train_loss": 0.3413,
+          "val_acc": 77.0,
+          "val_loss": 0.842
+        },
+        {
+          "epoch": 17,
+          "task": "classification",
+          "train_acc": 89.4,
+          "train_loss": 0.33,
+          "val_acc": 78.0,
+          "val_loss": 0.7764
+        },
+        {
+          "epoch": 18,
+          "task": "classification",
+          "train_acc": 89.8,
+          "train_loss": 0.3261,
+          "val_acc": 69.6,
+          "val_loss": 1.2626
+        },
+        {
+          "epoch": 19,
+          "task": "classification",
+          "train_acc": 90.4,
+          "train_loss": 0.3086,
+          "val_acc": 81.7,
+          "val_loss": 0.6695
+        },
+        {
+          "epoch": 20,
+          "task": "classification",
+          "train_acc": 90.3,
+          "train_loss": 0.3062,
+          "val_acc": 73.3,
+          "val_loss": 1.0241
+        },
+        {
+          "epoch": 1,
+          "task": "segmentation",
+          "train_acc": 72.0,
+          "train_loss": 1.2687,
+          "val_acc": 78.8,
+          "val_loss": 0.7789,
+          "val_miou": 64.6
+        },
+        {
+          "epoch": 2,
+          "task": "segmentation",
+          "train_acc": 83.2,
+          "train_loss": 0.6144,
+          "val_acc": 85.1,
+          "val_loss": 0.5234,
+          "val_miou": 70.2
+        },
+        {
+          "epoch": 3,
+          "task": "segmentation",
+          "train_acc": 85.9,
+          "train_loss": 0.4885,
+          "val_acc": 84.9,
+          "val_loss": 0.5266,
+          "val_miou": 69.4
+        },
+        {
+          "epoch": 4,
+          "task": "segmentation",
+          "train_acc": 86.9,
+          "train_loss": 0.4401,
+          "val_acc": 88.3,
+          "val_loss": 0.3859,
+          "val_miou": 75.5
+        },
+        {
+          "epoch": 5,
+          "task": "segmentation",
+          "train_acc": 88.5,
+          "train_loss": 0.373,
+          "val_acc": 87.7,
+          "val_loss": 0.3983,
+          "val_miou": 76.2
+        },
+        {
+          "epoch": 6,
+          "task": "segmentation",
+          "train_acc": 89.3,
+          "train_loss": 0.3351,
+          "val_acc": 88.5,
+          "val_loss": 0.3762,
+          "val_miou": 77.2
+        },
+        {
+          "epoch": 7,
+          "task": "segmentation",
+          "train_acc": 89.6,
+          "train_loss": 0.3275,
+          "val_acc": 89.2,
+          "val_loss": 0.335,
+          "val_miou": 78.3
+        },
+        {
+          "epoch": 8,
+          "task": "segmentation",
+          "train_acc": 90.1,
+          "train_loss": 0.3096,
+          "val_acc": 90.1,
+          "val_loss": 0.3089,
+          "val_miou": 79.4
+        },
+        {
+          "epoch": 9,
+          "task": "segmentation",
+          "train_acc": 90.2,
+          "train_loss": 0.3026,
+          "val_acc": 89.7,
+          "val_loss": 0.3256,
+          "val_miou": 78.9
+        },
+        {
+          "epoch": 10,
+          "task": "segmentation",
+          "train_acc": 90.9,
+          "train_loss": 0.2794,
+          "val_acc": 90.2,
+          "val_loss": 0.2974,
+          "val_miou": 79.5
+        },
+        {
+          "epoch": 11,
+          "task": "segmentation",
+          "train_acc": 90.8,
+          "train_loss": 0.283,
+          "val_acc": 90.6,
+          "val_loss": 0.29,
+          "val_miou": 80.4
+        },
+        {
+          "epoch": 12,
+          "task": "segmentation",
+          "train_acc": 91.0,
+          "train_loss": 0.2726,
+          "val_acc": 91.1,
+          "val_loss": 0.2743,
+          "val_miou": 80.4
+        },
+        {
+          "epoch": 13,
+          "task": "segmentation",
+          "train_acc": 91.0,
+          "train_loss": 0.2718,
+          "val_acc": 89.8,
+          "val_loss": 0.3251,
+          "val_miou": 80.2
+        },
+        {
+          "epoch": 14,
+          "task": "segmentation",
+          "train_acc": 91.4,
+          "train_loss": 0.2556,
+          "val_acc": 91.1,
+          "val_loss": 0.2724,
+          "val_miou": 81.0
+        },
+        {
+          "epoch": 15,
+          "task": "segmentation",
+          "train_acc": 91.6,
+          "train_loss": 0.2485,
+          "val_acc": 91.3,
+          "val_loss": 0.2677,
+          "val_miou": 81.4
+        },
+        {
+          "epoch": 16,
+          "task": "segmentation",
+          "train_acc": 91.8,
+          "train_loss": 0.2421,
+          "val_acc": 91.2,
+          "val_loss": 0.2689,
+          "val_miou": 81.6
+        },
+        {
+          "epoch": 17,
+          "task": "segmentation",
+          "train_acc": 92.0,
+          "train_loss": 0.235,
+          "val_acc": 91.8,
+          "val_loss": 0.2503,
+          "val_miou": 81.2
+        },
+        {
+          "epoch": 18,
+          "task": "segmentation",
+          "train_acc": 91.8,
+          "train_loss": 0.2434,
+          "val_acc": 91.3,
+          "val_loss": 0.2623,
+          "val_miou": 81.3
+        },
+        {
+          "epoch": 19,
+          "task": "segmentation",
+          "train_acc": 92.4,
+          "train_loss": 0.2217,
+          "val_acc": 92.3,
+          "val_loss": 0.2331,
+          "val_miou": 82.9
+        },
+        {
+          "epoch": 20,
+          "task": "segmentation",
+          "train_acc": 92.6,
+          "train_loss": 0.2147,
+          "val_acc": 92.2,
+          "val_loss": 0.2363,
+          "val_miou": 82.7
+        }
+      ],
+      "tests": [
+        {
+          "task": "classification",
+          "test_acc": 81.7
+        },
+        {
+          "task": "segmentation",
+          "test_acc": 90.0,
+          "test_miou": 79.2
+        }
+      ]
+    }
+  ],
+  "runtime": {
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "device_count": 1,
+    "device_memory_gb": 47.4,
+    "device_name": "NVIDIA RTX A6000",
+    "selected_device": "cuda:0",
+    "torch_version": "2.11.0+cu128"
+  }
+}

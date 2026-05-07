@@ -1,0 +1,29 @@
+project:
+  pointnet_dir: sub-modules/pointnet
+  data_dir: data
+  log_dir: logs
+  link_data: true
+
+runtime:
+  python: python3
+  gpu: 0
+  amp: true
+  install_requirements: false
+  save_checkpoints: true
+
+tasks:
+  classification:
+    enabled: true
+    script: train_cls.py
+    epochs: 20
+    batch_size: 128
+    lr: 0.001
+    seed: 1
+
+  segmentation:
+    enabled: true
+    script: train_seg.py
+    epochs: 20
+    batch_size: 128
+    lr: 0.001
+    seed: 1

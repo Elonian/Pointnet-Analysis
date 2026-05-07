@@ -1,0 +1,6 @@
+2026-05-07 21:08:43,896 | INFO | pointnet_dir=/mntdatalora/src/Pointnet-Shape-Analysis/sub-modules/pointnet
+2026-05-07 21:08:43,896 | INFO | data_dir=/mntdatalora/src/Pointnet-Shape-Analysis/data
+2026-05-07 21:08:43,896 | INFO | output_dir=/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization
+2026-05-07 21:08:44,318 | INFO | runtime={'torch_version': '2.11.0+cu128', 'cuda_available': True, 'selected_device': 'cuda:0', 'cuda_version': '12.8', 'device_count': 1, 'device_name': 'NVIDIA RTX A6000', 'device_memory_gb': 47.4}
+2026-05-07 21:08:46,523 | INFO | parsed 3 logs for curves
+2026-05-07 21:08:47,733 | INFO | wrote visualization report to /mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization

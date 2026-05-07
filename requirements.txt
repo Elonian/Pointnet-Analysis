@@ -1,0 +1,7 @@
+torch==2.5.1
+torchvision==0.20.1
+numpy
+h5py
+matplotlib
+pyyaml
+tqdm

@@ -1,0 +1,18 @@
+{
+  "checkpoint": "/mntdatalora/src/Pointnet-Shape-Analysis/sub-modules/pointnet/checkpoints/segmentation/05-07_12-23-26/Segmentation_ckpt_epoch18_metric82.85.ckpt",
+  "device": "cuda:0",
+  "sample_count": 16,
+  "miou_first_batch": 0.7969010296995596,
+  "masked_point_accuracy_first_batch": 0.9157752990722656,
+  "outputs": [
+    "/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization/plots/segmentation_samples/segmentation_test_samples_01.png",
+    "/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization/plots/segmentation_samples/segmentation_test_samples_02.png",
+    "/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization/plots/segmentation_samples/segmentation_test_samples_03.png",
+    "/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization/plots/segmentation_samples/segmentation_test_samples_04.png",
+    "/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization/plots/segmentation_samples/segmentation_test_samples_05.png",
+    "/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization/plots/segmentation_samples/segmentation_test_samples_06.png",
+    "/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization/plots/segmentation_samples/segmentation_test_samples_07.png",
+    "/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization/plots/segmentation_samples/segmentation_test_samples_08.png",
+    "/mntdatalora/src/Pointnet-Shape-Analysis/analysis_outputs/visualization/plots/segmentation_samples/segmentation_test_samples_16_combined.png"
+  ]
+}
